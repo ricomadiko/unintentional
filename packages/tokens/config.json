@@ -4,7 +4,7 @@
     "css": {
       "transformGroup": "css",
       "buildPath": "build/",
-      "prefix": "ds",
+      "prefix": "ui",
       "files": [{
         "destination": "tokens.css",
         "format": "css/variables"

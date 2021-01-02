@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Sat, 02 Jan 2021 19:03:49 GMT
+ * Generated on Sat, 02 Jan 2021 19:15:40 GMT
  */
 
 export const COLOR_CORE_WHITE = "#ffffff";
