@@ -1,0 +1,20 @@
+{
+  "name": "@unintentional/tokens",
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ricomadiko/unintentional.git",
+    "directory": "packages/tokens"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "build": "style-dictionary build",
+    "clean": "rm -rf build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "style-dictionary": "^2.10.2"
+  }
+}

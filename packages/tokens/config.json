@@ -1,0 +1,31 @@
+{
+  "source": ["properties/**/*.json"],
+  "platforms": {
+    "css": {
+      "transformGroup": "css",
+      "buildPath": "build/",
+      "prefix": "ds",
+      "files": [{
+        "destination": "tokens.css",
+        "format": "css/variables"
+      }]
+    },
+    "scss": {
+      "transformGroup": "scss",
+      "buildPath": "build/",
+      "files": [{
+        "destination": "tokens.scss",
+        "format": "scss/variables"
+      }]
+    },
+    "js": {
+      "transformGroup": "js",
+      "buildPath": "build/",
+      "transforms": ["name/cti/constant"],
+      "files": [{
+        "destination": "tokens.js",
+        "format": "javascript/es6"
+      }]
+    }
+  }
+}
