@@ -1,0 +1,9 @@
+{
+  "name": "@unintentional/react-button",
+  "version": "0.0.1",
+  "sideEffects": false,
+  "peerDependencies": {
+    "react": "^16.8 || ^17.0"
+  },
+  "source": "src/index.ts"
+}
