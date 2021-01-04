@@ -1,4 +1,5 @@
 {
+  "extends": "./tsconfig.base.json",
   "compilerOptions": {
     "paths": {
       "@unintentional/react-button": ["./packages/react/button/src"]
